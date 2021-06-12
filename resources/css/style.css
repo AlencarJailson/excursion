@@ -1,8 +1,12 @@
 /* Universal Styles */
+
 body {
   background-color: black;
   color: white;
-  align-items: flex-end
+  display: block;
+  margin: 8px;
+  text-align: center;
+  font-family: Verdana, sans-serif;
 }
 
 a {
@@ -10,7 +14,22 @@ a {
 }
 
 /* Header */
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+p {
+  color: gray;
+  font-size: 21px;
+}
 
 /* Main */
 
 /* Footer */
+.footer {
+  text-align: right;
+}
